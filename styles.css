@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Updock&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Square+Peg&family=Updock&display=swap');
 
+html{
+    font-family: "Updock";
+}
+
 h1, h2{
     font-family: 'Updock';
     text-align: center;
     font-size: 100px;
     color: rgb(135, 7, 7);
-    }
+    
+}
 
  img{
     border-radius: 50%;
@@ -19,9 +24,41 @@ h1, h2{
  .text{
     font-family: 'Updock';
     font-size: 50px;
-    margin: 60px;
+    margin: 40px;
     margin-top: 10px;
     color: rgb(135, 7, 7);
     
 }
 
+.main img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(136, 219, 140);
+
+}
+
+.content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50px;
+    gap:20px;
+    color: rgb(135, 7, 7);
+   }
+
+   .main{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+    font-family: "Updock";
+
+   }
+
+   .content{
+    gap:40px;
+    display: flex;
+}
