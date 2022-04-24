@@ -62,3 +62,24 @@ h1, h2{
     gap:40px;
     display: flex;
 }
+
+.left{
+    
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 30px;
+    width:420px;
+    height: 1507px;
+
+}
+
+.ingredients-container{
+    border-radius: 10px;
+    background-color: rgb(203, 135, 32);
+    padding:20px;
+    flex-grow: 3;
+    font-family: "square+peg";
+    font-size: 50px;
+    
+}
