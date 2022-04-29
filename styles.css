@@ -75,8 +75,7 @@ h1, h2{
     flex-direction: column;
     gap:20px;
     padding-left: 30px;
-    width:420px;
-    height: 1507px;
+    
 
 }
 
@@ -96,23 +95,27 @@ h1, h2{
     margin-top:20px;
     border-radius: 10px;
     border:1px solid rgb(71, 71, 71);
-    height: 987px;
+    height: auto;
     font-family: "square+peg";
     background-color: rgb(203, 135, 32);
     padding: 20px;
     font-size: 40px;
+    text-align: justify;
+
+    
+    
 
 }
 
 .right-top{
     border-radius: 10px;
     border:1px solid rgb(41, 41, 41);
-    height:500px;
+    height:350px;
     background-color: rgb(203, 135, 32);
     text-size-adjust: auto;
     font-family: "square+peg";
     flex-grow: 3;
     padding: 20px;
-    font-size: 40px;
+    font-size: 30px;
     
 }
