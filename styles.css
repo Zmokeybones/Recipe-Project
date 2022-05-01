@@ -110,7 +110,7 @@ h1, h2{
 .right-top{
     border-radius: 10px;
     border:1px solid rgb(41, 41, 41);
-    height:350px;
+    height:auto;
     background-color: rgb(203, 135, 32);
     text-size-adjust: auto;
     font-family: "square+peg";
